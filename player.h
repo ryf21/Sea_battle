@@ -8,7 +8,7 @@ const int SIDE_OF_FIELD = 10;
 const char FIELD_TRANSITION[] = {'_', '^', '>', 'v', '<', '*'};
 
 /**
- * \brief Класс, реализующий функционал поля для игры Жизнь.
+ * \brief Класс, реализующий функционал поля и кораблей для игры Sea Battle.
  */
 class Player {
 public:
