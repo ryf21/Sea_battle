@@ -18,6 +18,7 @@ add_test(NAME player_test COMMAND player_test)
 find_package(Doxygen)
 
 set(DOXYGEN_GENERATE_HTML YES)
+set(DOXYGEN_GENERATE_RTF YES)
 set(DOXYGEN_USE_MATHJAX YES)
 set(DOXYGEN_EXTRACT_PRIVATE YES)
 set(DOXYGEN_OUTPUT_LANGUAGE Russian)
